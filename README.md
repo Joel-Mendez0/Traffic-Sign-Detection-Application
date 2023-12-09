@@ -51,7 +51,6 @@ References
 
     Ultralytics GitHub Repository
     Universe Roboflow
-    Custom Object Detection Model with YOLOv5
     YOLOv8 Documentation
     OpenCV Tutorials
     YouTube: YOLO Object Detection
