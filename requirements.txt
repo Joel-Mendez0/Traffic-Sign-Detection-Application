@@ -1,0 +1,9 @@
+# requirements.txt
+
+# Core dependencies
+numpy==1.21.0
+opencv-python==4.5.3.56
+pytesseract==0.3.8
+Flask==2.0.1
+Werkzeug==2.0.1
+Flask-WTF==0.15.1
