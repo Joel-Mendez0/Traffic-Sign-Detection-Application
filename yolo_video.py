@@ -67,6 +67,8 @@ def video_detection(path_x):
 
                 elif class_name == "Stop":
                     color = (20, 20, 20)
+                else:
+                    color = (50,50,50)
 
                 if conf > 0.8:
                     cv2.rectangle(img, (x1, y1), (x2, y2), color, 3)
