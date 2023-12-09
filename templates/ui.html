@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webcam Detection</title>
+    <link rel="stylesheet" type="text/css" href="\static\css\capturestyle.css">
+</head>
+<body>
+<header class="feature-box top">
+    <h1><strong>Webcam Road Sign Detection</strong></h1>
+</header>
+<header class="feature-box second">
+     <h1><strong>Webcam Output</strong></h1>
+</header>
+
+
+<section class="col-sm">
+    <img src="{{ url_for('webapp') }}" alt="Webcam output">
+</section>
+
+
+<div class="button-container">
+    <a href="/home">Home</a>
+    <a href="/FrontPage">Video</a>
+    <a href="/webcam">Webcam</a>
+</div>
+<button class="settings-button" onclick="openSettings()">
+    <img src="\static\files\png-transparent-settings-gear-icon-gear-configuration-set-up.png" alt="Settings">
+</button>
+
+
+<textarea id="custom-output-textbox" class="custom-output" readonly></textarea>
+<script src="\static\js\webcamscript.js"></script>
+</body>
+</html>

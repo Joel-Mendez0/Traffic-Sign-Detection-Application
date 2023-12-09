@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        header.feature-box.top {
+            background-color: black;
+            height: 100px;
+            margin: 0px;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        header.feature-box.second {
+            background-color: grey;
+            height: 50px;
+            text-align: center;
+            margin-top: -25px;
+        }
+
+
+        .features {
+            background-color: black;
+            width: 900px;
+            height: 700px;
+            border-radius: 35px;
+            object-fit: contain;
+            margin: 20px;
+        }
+
+
+        section.col-sm {
+            background-color: black;
+            width: 1000px;
+            height: 650px;
+            border-radius: 35px;
+            object-fit: contain;
+            margin: 40px;
+        }
+
+
+        img {
+            width: 900px;
+            height: 600px;
+            border-radius: 35px;
+            object-fit: contain;
+            margin: 40px;
+        }
+
+
+        .new {
+            color: black;
+            margin: 0px;
+            padding: 10px;
+            background-color: grey;
+            margin: 0px;
+            margin-top: -10px;
+        }
+
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+
+        .button-container a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+
+        .submit-button {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+<header class="feature-box top">
+    <h1><strong>Road Sign Detection</strong></h1>
+</header>
+<header class="feature-box second">
+    <h1><strong>Output Video</strong></h1>
+</header>
+
+
+<section class="col-sm">
+    <img src="{{ url_for('video') }}" alt="Upload video">
+</section>
+
+
+<section>
+    <div class="new">
+        <form method="POST" enctype="multipart/form-data"
+              style="align-content: center; text-align: center; display: flex;">
+            {{ form.hidden_tag() }}
+            {{ form.file(class_="custom-file-input") }}
+            <div class="button-container">
+                <div class="button-container">
+                    <button type="submit" name="favorite" value="x" class="submit-button">Submit</button>
+                </div>
+                <a href="/home">Home</a>
+                <a href="/FrontPage">Video</a>
+                <a href="/webcam">Webcam</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+</body>
+</html>
