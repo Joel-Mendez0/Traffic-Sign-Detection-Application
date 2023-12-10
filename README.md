@@ -28,6 +28,10 @@ Improvements
 
 To enhance the model's functionality, string extraction using the Tesseract library was implemented. Additionally, a web application was developed using Flask, HTML, CSS, and JavaScript to provide an intuitive interface for testing and implementing the project.
 
+![image](https://github.com/Joel-Mendez0/Traffic-Sign-Detection-Application/assets/113056408/47f8407f-288e-42e8-9c5f-fd6b4ddd3eff)
+
+![image](https://github.com/Joel-Mendez0/Traffic-Sign-Detection-Application/assets/113056408/1a3a2b2c-60c3-4a2a-a762-b864340289cf)
+
 ![image](https://github.com/Joel-Mendez0/Traffic-Sign-Detection-Application/assets/113056408/9d65fd5b-d0f2-4770-98d9-cc2cf856a8f9)
 
 Key Learnings and Challenges
