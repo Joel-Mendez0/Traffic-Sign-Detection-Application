@@ -27,6 +27,9 @@ Various performance metrics, including F1-Confidence Curve, Precision-Confidence
 Improvements
 
 To enhance the model's functionality, string extraction using the Tesseract library was implemented. Additionally, a web application was developed using Flask, HTML, CSS, and JavaScript to provide an intuitive interface for testing and implementing the project.
+
+![image](https://github.com/Joel-Mendez0/Traffic-Sign-Detection-Application/assets/113056408/9d65fd5b-d0f2-4770-98d9-cc2cf856a8f9)
+
 Key Learnings and Challenges
 Key Learnings
 
@@ -57,5 +60,7 @@ References
     YouTube: YOLOv8 Training
 
 For the complete source code and details, please refer to the files in this repository.
+
+
 
 
